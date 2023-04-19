@@ -11,6 +11,13 @@ module.exports = {
     ) {
     return {
             '/': { page: '/' },
+            '/about': { page: '/about' },
+            '/sketch': { page: '/sketch' },
+            '/gallery': { page: '/gallery' },
+            '/music': { page: '/music' },
+            '/x_real': { page: '/x_real' },
+            '/contact': { page: '/contact' },
+            '/sponsor': { page: '/sponsor' },
             '/500': { page: '/500' },
             '/404': { page: '/404' }
         }

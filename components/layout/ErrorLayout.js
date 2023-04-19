@@ -8,7 +8,7 @@ export function ErrorLayout({children, title = '404'})
             <Head>
                 <title>{title}</title>
             </Head>
-            <main>
+            <main className="max-w-xl mx-auto py-60">
                 {children}
             </main>
         </>

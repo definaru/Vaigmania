@@ -6,10 +6,9 @@ export default class MyDocument extends Document
         return (
             <Html lang="en">
                 <Head>
-                    <meta charSet="utf-8"/>
                     <link href='/access/img/favicon.png' rel='shortcut icon' type='image/x-icon'/>
                 </Head>        
-                <body className="scroll">
+                <body id="top" className="scroll relative">
                     <Main />
                     <NextScript />
                     
